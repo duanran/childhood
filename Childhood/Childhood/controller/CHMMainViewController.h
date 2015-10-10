@@ -8,6 +8,8 @@
 
 #import "CHMBaseViewController.h"
 
-@interface CHMMainViewController : CHMBaseViewController
+@interface CHMMainViewController : CHMBaseViewController<UITableViewDataSource,UITableViewDelegate>
+@property(nonatomic,strong)IBOutlet UIButton * naviToMapBtn;
+@property(nonatomic,strong)IBOutlet UITableView *tableView;
 
 @end

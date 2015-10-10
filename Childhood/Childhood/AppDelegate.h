@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
-
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+#import <BaiduMapAPI/BMapKit.h>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,BMKGeneralDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
