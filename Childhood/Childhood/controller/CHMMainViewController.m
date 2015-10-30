@@ -19,8 +19,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
     num=3;
     
     // Do any additional setup after loading the view from its nib.
@@ -34,8 +32,8 @@
     if (cell==nil) {
         cell=[cellArr objectAtIndex:0];
     }
-    return cell;
     
+    return cell;
     
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath

@@ -15,17 +15,8 @@
 		18037D201BC677E700A1C982 /* CHMSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18037D1E1BC677E700A1C982 /* CHMSecondViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		18037D241BC6781700A1C982 /* CHMThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18037D221BC6781700A1C982 /* CHMThirdViewController.m */; settings = {ASSET_TAGS = (); }; };
 		18037D251BC6781700A1C982 /* CHMThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18037D231BC6781700A1C982 /* CHMThirdViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		18BECFC61BC7A66400BCDFA9 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BECFB21BC7A66400BCDFA9 /* AFHTTPRequestOperation.m */; settings = {ASSET_TAGS = (); }; };
-		18BECFC71BC7A66400BCDFA9 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BECFB41BC7A66400BCDFA9 /* AFHTTPRequestOperationManager.m */; settings = {ASSET_TAGS = (); }; };
-		18BECFC81BC7A66400BCDFA9 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BECFB61BC7A66400BCDFA9 /* AFHTTPSessionManager.m */; settings = {ASSET_TAGS = (); }; };
-		18BECFC91BC7A66400BCDFA9 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BECFB91BC7A66400BCDFA9 /* AFNetworkReachabilityManager.m */; settings = {ASSET_TAGS = (); }; };
-		18BECFCA1BC7A66400BCDFA9 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BECFBB1BC7A66400BCDFA9 /* AFSecurityPolicy.m */; settings = {ASSET_TAGS = (); }; };
-		18BECFCB1BC7A66400BCDFA9 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BECFBD1BC7A66400BCDFA9 /* AFURLConnectionOperation.m */; settings = {ASSET_TAGS = (); }; };
-		18BECFCC1BC7A66400BCDFA9 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BECFBF1BC7A66400BCDFA9 /* AFURLRequestSerialization.m */; settings = {ASSET_TAGS = (); }; };
-		18BECFCD1BC7A66400BCDFA9 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BECFC11BC7A66400BCDFA9 /* AFURLResponseSerialization.m */; settings = {ASSET_TAGS = (); }; };
-		18BECFCE1BC7A66400BCDFA9 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BECFC31BC7A66400BCDFA9 /* AFURLSessionManager.m */; settings = {ASSET_TAGS = (); }; };
-		18BECFCF1BC7A66400BCDFA9 /* BaiduMapAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BECFC41BC7A66400BCDFA9 /* BaiduMapAPI.framework */; settings = {ASSET_TAGS = (); }; };
-		18BECFD01BC7A66400BCDFA9 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18BECFC51BC7A66400BCDFA9 /* mapapi.bundle */; settings = {ASSET_TAGS = (); }; };
+		1841B6F41BE36464006CE828 /* BaiduMapAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1841B6F21BE36464006CE828 /* BaiduMapAPI.framework */; settings = {ASSET_TAGS = (); }; };
+		1841B6F51BE36464006CE828 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1841B6F31BE36464006CE828 /* mapapi.bundle */; settings = {ASSET_TAGS = (); }; };
 		18BECFD41BC7A76500BCDFA9 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BECFD21BC7A76500BCDFA9 /* MapViewController.m */; settings = {ASSET_TAGS = (); }; };
 		18BECFD51BC7A76500BCDFA9 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BECFD31BC7A76500BCDFA9 /* MapViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		18BECFD71BC7B60D00BCDFA9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BECFD61BC7B60D00BCDFA9 /* CoreLocation.framework */; };
@@ -66,6 +57,7 @@
 		18D78A911BC65F3300CD6735 /* CHMTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D78A901BC65F3300CD6735 /* CHMTabBarViewController.m */; settings = {ASSET_TAGS = (); }; };
 		18D78A941BC65F6B00CD6735 /* CHMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D78A931BC65F6B00CD6735 /* CHMTabBar.m */; settings = {ASSET_TAGS = (); }; };
 		18D78A971BC65F9F00CD6735 /* CHMTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D78A961BC65F9F00CD6735 /* CHMTabBarItem.m */; settings = {ASSET_TAGS = (); }; };
+		EAC5D9B8F4B189E2D43C93ED /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2720BAA8D1C3C44D0E27C0A /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,27 +90,8 @@
 		18037D211BC6781700A1C982 /* CHMThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMThirdViewController.h; sourceTree = "<group>"; };
 		18037D221BC6781700A1C982 /* CHMThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHMThirdViewController.m; sourceTree = "<group>"; };
 		18037D231BC6781700A1C982 /* CHMThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHMThirdViewController.xib; sourceTree = "<group>"; };
-		18BECFB11BC7A66400BCDFA9 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		18BECFB21BC7A66400BCDFA9 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		18BECFB31BC7A66400BCDFA9 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
-		18BECFB41BC7A66400BCDFA9 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
-		18BECFB51BC7A66400BCDFA9 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		18BECFB61BC7A66400BCDFA9 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		18BECFB71BC7A66400BCDFA9 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
-		18BECFB81BC7A66400BCDFA9 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		18BECFB91BC7A66400BCDFA9 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		18BECFBA1BC7A66400BCDFA9 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
-		18BECFBB1BC7A66400BCDFA9 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
-		18BECFBC1BC7A66400BCDFA9 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		18BECFBD1BC7A66400BCDFA9 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
-		18BECFBE1BC7A66400BCDFA9 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		18BECFBF1BC7A66400BCDFA9 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		18BECFC01BC7A66400BCDFA9 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		18BECFC11BC7A66400BCDFA9 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		18BECFC21BC7A66400BCDFA9 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
-		18BECFC31BC7A66400BCDFA9 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
-		18BECFC41BC7A66400BCDFA9 /* BaiduMapAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI.framework; sourceTree = "<group>"; };
-		18BECFC51BC7A66400BCDFA9 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
+		1841B6F21BE36464006CE828 /* BaiduMapAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI.framework; sourceTree = "<group>"; };
+		1841B6F31BE36464006CE828 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
 		18BECFD11BC7A76500BCDFA9 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		18BECFD21BC7A76500BCDFA9 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		18BECFD31BC7A76500BCDFA9 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
@@ -178,6 +151,9 @@
 		18D78A951BC65F9F00CD6735 /* CHMTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMTabBarItem.h; sourceTree = "<group>"; };
 		18D78A961BC65F9F00CD6735 /* CHMTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHMTabBarItem.m; sourceTree = "<group>"; };
 		18D78A9B1BC663FF00CD6735 /* define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
+		39165B637A0C476424B8971E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		87A7900BDEE616C2A4AA9187 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A2720BAA8D1C3C44D0E27C0A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,7 +167,8 @@
 				18BECFDB1BC7B62700BCDFA9 /* OpenGLES.framework in Frameworks */,
 				18BECFD91BC7B61B00BCDFA9 /* QuartzCore.framework in Frameworks */,
 				18BECFD71BC7B60D00BCDFA9 /* CoreLocation.framework in Frameworks */,
-				18BECFCF1BC7A66400BCDFA9 /* BaiduMapAPI.framework in Frameworks */,
+				1841B6F41BE36464006CE828 /* BaiduMapAPI.framework in Frameworks */,
+				EAC5D9B8F4B189E2D43C93ED /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,32 +189,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18BECFB01BC7A66400BCDFA9 /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				18BECFB11BC7A66400BCDFA9 /* AFHTTPRequestOperation.h */,
-				18BECFB21BC7A66400BCDFA9 /* AFHTTPRequestOperation.m */,
-				18BECFB31BC7A66400BCDFA9 /* AFHTTPRequestOperationManager.h */,
-				18BECFB41BC7A66400BCDFA9 /* AFHTTPRequestOperationManager.m */,
-				18BECFB51BC7A66400BCDFA9 /* AFHTTPSessionManager.h */,
-				18BECFB61BC7A66400BCDFA9 /* AFHTTPSessionManager.m */,
-				18BECFB71BC7A66400BCDFA9 /* AFNetworking.h */,
-				18BECFB81BC7A66400BCDFA9 /* AFNetworkReachabilityManager.h */,
-				18BECFB91BC7A66400BCDFA9 /* AFNetworkReachabilityManager.m */,
-				18BECFBA1BC7A66400BCDFA9 /* AFSecurityPolicy.h */,
-				18BECFBB1BC7A66400BCDFA9 /* AFSecurityPolicy.m */,
-				18BECFBC1BC7A66400BCDFA9 /* AFURLConnectionOperation.h */,
-				18BECFBD1BC7A66400BCDFA9 /* AFURLConnectionOperation.m */,
-				18BECFBE1BC7A66400BCDFA9 /* AFURLRequestSerialization.h */,
-				18BECFBF1BC7A66400BCDFA9 /* AFURLRequestSerialization.m */,
-				18BECFC01BC7A66400BCDFA9 /* AFURLResponseSerialization.h */,
-				18BECFC11BC7A66400BCDFA9 /* AFURLResponseSerialization.m */,
-				18BECFC21BC7A66400BCDFA9 /* AFURLSessionManager.h */,
-				18BECFC31BC7A66400BCDFA9 /* AFURLSessionManager.m */,
-			);
-			path = AFNetworking;
-			sourceTree = "<group>";
-		};
 		18BECFE21BC8E73900BCDFA9 /* KrVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -285,6 +236,8 @@
 				18D78A671BC659CF00CD6735 /* ChildhoodTests */,
 				18D78A721BC659CF00CD6735 /* ChildhoodUITests */,
 				18D78A491BC659CF00CD6735 /* Products */,
+				A6097819CE36A2A404F8C74E /* Pods */,
+				5637E53E498C8A6084E575CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -353,10 +306,9 @@
 		18D78A811BC65AB800CD6735 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				1841B6F21BE36464006CE828 /* BaiduMapAPI.framework */,
+				1841B6F31BE36464006CE828 /* mapapi.bundle */,
 				18BECFE21BC8E73900BCDFA9 /* KrVideoPlayer */,
-				18BECFB01BC7A66400BCDFA9 /* AFNetworking */,
-				18BECFC41BC7A66400BCDFA9 /* BaiduMapAPI.framework */,
-				18BECFC51BC7A66400BCDFA9 /* mapapi.bundle */,
 				18D78A821BC65D5400CD6735 /* RDVTabBarController */,
 			);
 			path = libs;
@@ -422,6 +374,23 @@
 			path = tabbar;
 			sourceTree = "<group>";
 		};
+		5637E53E498C8A6084E575CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2720BAA8D1C3C44D0E27C0A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6097819CE36A2A404F8C74E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87A7900BDEE616C2A4AA9187 /* Pods.debug.xcconfig */,
+				39165B637A0C476424B8971E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -429,9 +398,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18D78A781BC659CF00CD6735 /* Build configuration list for PBXNativeTarget "Childhood" */;
 			buildPhases = (
+				E6FC9489D032401CE921EC57 /* Check Pods Manifest.lock */,
 				18D78A441BC659CF00CD6735 /* Sources */,
 				18D78A451BC659CF00CD6735 /* Frameworks */,
 				18D78A461BC659CF00CD6735 /* Resources */,
+				9BD7D47578F9EF6342225FD6 /* Embed Pods Frameworks */,
+				FA608C1440F0461740862BD7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -527,6 +499,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18037D161BC6776C00A1C982 /* CHMBaseViewController.xib in Resources */,
+				1841B6F51BE36464006CE828 /* mapapi.bundle in Resources */,
 				18BECFF71BC8E73900BCDFA9 /* kr-video-player-close@3x.png in Resources */,
 				18D78A5E1BC659CF00CD6735 /* LaunchScreen.storyboard in Resources */,
 				18BED0001BC8E73900BCDFA9 /* kr-video-player-shrinkscreen@2x.png in Resources */,
@@ -545,7 +518,6 @@
 				18BECFF91BC8E73900BCDFA9 /* kr-video-player-fullscreen@3x.png in Resources */,
 				18BED00C1BC903F900BCDFA9 /* CHMainTableViewCell.xib in Resources */,
 				18037D201BC677E700A1C982 /* CHMSecondViewController.xib in Resources */,
-				18BECFD01BC7A66400BCDFA9 /* mapapi.bundle in Resources */,
 				18D78A5B1BC659CF00CD6735 /* Assets.xcassets in Resources */,
 				18D78A561BC659CF00CD6735 /* Main.storyboard in Resources */,
 			);
@@ -567,6 +539,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9BD7D47578F9EF6342225FD6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6FC9489D032401CE921EC57 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA608C1440F0461740862BD7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18D78A441BC659CF00CD6735 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -579,27 +599,18 @@
 				18D78A501BC659CF00CD6735 /* AppDelegate.mm in Sources */,
 				18BECFD41BC7A76500BCDFA9 /* MapViewController.m in Sources */,
 				18D78A891BC65D5400CD6735 /* RDVTabBar.m in Sources */,
-				18BECFCD1BC7A66400BCDFA9 /* AFURLResponseSerialization.m in Sources */,
-				18BECFCB1BC7A66400BCDFA9 /* AFURLConnectionOperation.m in Sources */,
 				18D78A8A1BC65D5400CD6735 /* RDVTabBarController.m in Sources */,
 				18037D241BC6781700A1C982 /* CHMThirdViewController.m in Sources */,
-				18BECFC71BC7A66400BCDFA9 /* AFHTTPRequestOperationManager.m in Sources */,
 				18BED0021BC8E73900BCDFA9 /* KrVideoPlayerController.m in Sources */,
 				18D78A971BC65F9F00CD6735 /* CHMTabBarItem.m in Sources */,
-				18BECFCA1BC7A66400BCDFA9 /* AFSecurityPolicy.m in Sources */,
 				18037D1F1BC677E700A1C982 /* CHMSecondViewController.m in Sources */,
 				18D78A941BC65F6B00CD6735 /* CHMTabBar.m in Sources */,
-				18BECFCC1BC7A66400BCDFA9 /* AFURLRequestSerialization.m in Sources */,
-				18BECFC91BC7A66400BCDFA9 /* AFNetworkReachabilityManager.m in Sources */,
 				18D78A911BC65F3300CD6735 /* CHMTabBarViewController.m in Sources */,
 				18D78A4D1BC659CF00CD6735 /* main.m in Sources */,
 				18037D151BC6776C00A1C982 /* CHMBaseViewController.m in Sources */,
-				18BECFC61BC7A66400BCDFA9 /* AFHTTPRequestOperation.m in Sources */,
 				18BED00B1BC903F900BCDFA9 /* CHMainTableViewCell.m in Sources */,
 				18037D1A1BC677A200A1C982 /* CHMMainViewController.m in Sources */,
-				18BECFC81BC7A66400BCDFA9 /* AFHTTPSessionManager.m in Sources */,
 				18D78A8B1BC65D5400CD6735 /* RDVTabBarItem.m in Sources */,
-				18BECFCE1BC7A66400BCDFA9 /* AFURLSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -738,6 +749,7 @@
 		};
 		18D78A791BC659CF00CD6735 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87A7900BDEE616C2A4AA9187 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: ran duan (M66785LA85)";
@@ -750,7 +762,7 @@
 				INFOPLIST_FILE = Childhood/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-Objc";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = duanranTest.Childhood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -759,6 +771,7 @@
 		};
 		18D78A7A1BC659CF00CD6735 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39165B637A0C476424B8971E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: ran duan (M66785LA85)";
@@ -771,7 +784,7 @@
 				INFOPLIST_FILE = Childhood/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-Objc";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = duanranTest.Childhood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
